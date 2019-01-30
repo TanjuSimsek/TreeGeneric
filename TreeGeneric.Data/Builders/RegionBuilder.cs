@@ -16,6 +16,7 @@ namespace TreeGeneric.Data.Builders
             entity.Property(p => p.Photo).IsRequired().HasMaxLength(200);
             entity.Property(p => p.Lat).IsRequired().HasMaxLength(200);
             entity.Property(p => p.Long).IsRequired().HasMaxLength(200);
+
         }
     }
 }

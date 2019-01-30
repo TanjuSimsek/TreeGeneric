@@ -24,6 +24,7 @@ namespace TreeGeneric.Model
         [Display(Name = "Aktif Mi?")]
         public bool IsActive { get; set; }
         public virtual ICollection<Donation> Donations { get; set; }
+
         public virtual ICollection<TreeType> TreeTypes { get; set; }
     }
 }
